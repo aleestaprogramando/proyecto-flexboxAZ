@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/bit-imponente3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px px #000000;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e6e216;
+    padding: 10px;
+}
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#div1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: #ebc90a;
+    text-align: center;
+    margin-top: 20px;
+}
+.contenedor-inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+}
+.servicios-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.servicio-box {
+    width: 45%;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 20px auto;
+    gap: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000000;
+}
+button:hover {
+    background-color: #747181;
+    color: white;
+}
